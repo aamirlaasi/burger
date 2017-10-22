@@ -1,9 +1,9 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-	host: JAWSDB_URL.split('@')[1],
-	user: JAWSDB_URL.split(":")[1].split("//")[1],
-	password: JAWSDB_URL.split(":")[2].split("@")[0],
+	host: "ko86t9azcob3a2f9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "tqey6bwhpiu9m2yw",
+	password: "ks6xh8d2xbyydgsp",
 	database: "burgers_db"
 });
 
